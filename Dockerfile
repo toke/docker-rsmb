@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:stable
 MAINTAINER Thomas Kerpe <thomas@kerpe.net>
 
 RUN apt-get update && apt-get upgrade -y
