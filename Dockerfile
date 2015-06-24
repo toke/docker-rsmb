@@ -11,7 +11,6 @@ VOLUME ["/mqtt/config"]
 COPY config/rsmb.conf /mqtt/config/
 
 EXPOSE 1883
-EXPOSE 1884/udp
 EXPOSE 1885/udp
 
 CMD ["broker_mqtts", "/mqtt/config/rsmb.conf"]
